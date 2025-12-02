@@ -1,4 +1,4 @@
-package com.my.test.component;
+package com.my.test.No10.component;
 
 import org.springframework.stereotype.Component;
 
@@ -6,9 +6,9 @@ import jakarta.annotation.PostConstruct;
 
 @Component
 public class MyPostConstruct {
-    
+
     @PostConstruct
     public void init() {
-        System.out.println("@PostConstruct: runs after bean creation");
+        System.out.println("===> From PostConstruct <===");
     }
 }
